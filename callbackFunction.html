@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        const AC = (callback) => {
+            console.log("this is a A function");
+            callback()   //funcB()
+            
+        }
+
+
+
+
+        const Light = () => {
+            console.log("this is a B function ");
+            
+        }
+
+        AC(Light)
+
+        // funcB()
+
+
+       
+
+
+
+
+
+        // work
+
+        const apple =(callback) => {
+            console.log("it ia a iphone");
+            callback()
+            
+        }
+
+    
+        const dell = () => {
+            console.log("it is a lap");
+            
+        }
+
+        apple(dell)
+
+
+
+
+    </script>
+</body>
+</html>
